@@ -4,7 +4,7 @@ Sketches opened via https://p5live.jgrizou.repl.co/ will refresh automatically e
 
 ## Use-case
 
-This is useful when your work is hard to access but need to be debugged/tweaked interactively and iteratvily. 
+This is useful when your work is hard to access but need to be debugged/tweaked interactively and iteratively. 
 
 For example if your p5.js sketch is displayed on a networked TV, an interactive board or a tablet/smarthphone installed in a phsycial frame.
 
