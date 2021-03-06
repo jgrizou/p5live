@@ -1,14 +1,20 @@
 {
-  "name": "tomato",
-  "version": "1.0.0",
-  "description": "",
+  "name": "p5live",
+  "version": "0.1",
+  "description": "Live remote refresh of p5.js sketches using socket.io room messaging. ",
+  "homepage": "https://github.com/jgrizou/p5live#Readme.md",
+  "repository": "github:jgrizou/p5live",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["p5.js", "socket.io"],
+  "author": {
+    "name": "Jonathan Grizou",
+    "email": "jonathan.grizou@gmail.com",
+    "url": "https://jgrizou.com/"
+  },
+  "license": "MIT",
   "dependencies": {
     "@replit/database": "^2.0.0",
     "ejs": "^3.1.6",
