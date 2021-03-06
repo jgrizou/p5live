@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>p5 Live</title>
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<div class="header">
+		<div class="message-container">
+			<h1>p5 Live</h1>
+
+			<div class="user-input">
+        <p> Username:
+        <input type="text" value="" id="username" placeholder="Enter your username here">
+        </p>
+        <p> Sketch ID:
+				<input type="text" value="" id="sketchId" placeholder="Enter your sketchId here">
+        </p>
+        <button id="loadSketch">Load</button>
+      </div>
+
+      <br>
+
+      <h6 class="message">Or directly via https://p5live.jgrizou.repl.co/USERNAME/SKETCH_ID</h6>
+
+      <h6 class="message">You can open the same sketch on multiple tabs/devices, all instances will refresh simultaneously.</h6>
+      
+      </div>
+    </div>
+
+    <script>    
+      window.onload = function() {
+        document.getElementById("loadSketch").onclick = function() {
+            console.log('loadSketch')
+            username = document.getElementById("username").value
+            sketchId = document.getElementById("sketchId").value
+            if (username && sketchId) {
+              // naviagte to sketchId page
+              window.location.href = "https://p5live.jgrizou.repl.co/" + username + "/"+ sketchId;
+            }
+        };
+
+        // simulate click on loadSketch button when pressing enter
+        window.addEventListener("keyup", function(event) {
+          // Number 13 is the "Enter" key on the keyboard
+          if (event.keyCode === 13) {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("loadSketch").click();
+          }
+        });
+
+      };
+    </script>
+
+  </body>
+</html>
