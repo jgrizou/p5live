@@ -8,7 +8,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["p5.js", "socket.io"],
+  "keywords": [
+    "p5.js",
+    "socket.io"
+  ],
   "author": {
     "name": "Jonathan Grizou",
     "email": "jonathan.grizou@gmail.com",

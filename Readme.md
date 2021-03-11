@@ -2,19 +2,26 @@
 
 Sketches opened via https://p5live.jgrizou.repl.co/ will refresh automatically each time you save and run your sketches in the p5.js editor. 
 
+## Video
+
+Short demo (2min): https://youtu.be/_MkSuxJA6Rs
+Longer demo (5min): https://youtu.be/h-FjfuE0gPc
+
 ## Use-case
 
 This is useful when your work is hard to access but need to be debugged/tweaked interactively and iteratively. 
 
 For example if your p5.js sketch is displayed on a networked TV, an interactive board or a tablet/smarthphone installed in a phsycial frame.
 
-It is also very helful when debugging on multiple screen sizes e.g. tablet, smartphone, full screen, half, screen. With p5live, you do not have to always refresh each screen manually, they will all update at once remotely.
+It is also very helful when debugging on multiple screen sizes e.g. tablet, smartphone, full- or half-screen. With p5live, you do not have to refresh every screen manually, they will all update at once remotely.
 
 ## Example
 
 1. Open our demo p5.js sketch https://editor.p5js.org/jgrizou/sketches/Keik1He5v
 2. If you go to https://p5live.jgrizou.repl.co/jgrizou/Keik1He5v, you will find the same sketch in full screen
-3. Each time you click the PLAY button on the p5 editor, p5live version will auto-reload. Note that only saved changes are propagated, so you will need to create an account and follow the steps below to get the full benefit. 
+3. Each time you click the PLAY button on the p5 editor, p5live version will auto-reload. 
+
+*Note that only saved changes are propagated, so you will need to create an account and follow the steps below to get the full benefit. *
 
 ## Getting started
 
@@ -42,5 +49,7 @@ if (location.href == 'about:srcdoc') {
 Hopefully this will be fully intergrated within the p5.js editor at some point and you will not need to do any of the step above. To help make this happen, please show your support at GITHUB_ISSUE.
 
 ## How it works
+
+Technical details: https://youtu.be/jMjfwORo1RE
 
 https://repl.it/@jgrizou/p5live
