@@ -2,10 +2,10 @@
 
 Sketches opened via https://p5live.jgrizou.repl.co/ will refresh automatically each time you save and run your sketches in the p5.js editor. 
 
-## Video
+## Explainer videos
 
-Short demo (2min): https://youtu.be/_MkSuxJA6Rs
-Longer demo (5min): https://youtu.be/h-FjfuE0gPc
+- Short (2min): https://youtu.be/_MkSuxJA6Rs
+- Longer (5min): https://youtu.be/h-FjfuE0gPc
 
 ## Use-case
 
@@ -31,7 +31,7 @@ It is also very helful when debugging on multiple screen sizes e.g. tablet, smar
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js">
 ```
-4. Add a small script at the top of your `sketch.js` file that will trigger the reload action. Simple copy the following code at the top of the file. 
+4. Add a small script at the top of your `sketch.js` file that will trigger the reload action. Simple copy the following code at the top of the file and fill the username and sketchId field. 
 ```js
 // we check if this is running in the editor
 if (location.href == 'about:srcdoc') {
@@ -49,6 +49,10 @@ if (location.href == 'about:srcdoc') {
 Hopefully this will be fully intergrated within the p5.js editor at some point and you will not need to do any of the step above. To help make this happen, please show your support at GITHUB_ISSUE.
 
 ## How it works
+
+Ongoing
+
+![flow](docs/media/flow.png)
 
 Technical details: https://youtu.be/jMjfwORo1RE
 
