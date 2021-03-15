@@ -13,9 +13,9 @@ For p5live to work, you only need to import the socket.io library and add 5 line
 
 ## Use-case
 
-This is useful when your work is hard to access but need to be debugged/tweaked interactively and iteratively. 
+This is useful when your work is hard to access but needs to be debugged/tweaked interactively and iteratively. 
 
-For example if your p5.js sketch is displayed on a networked TV, an interactive board or a tablet/smarthphone installed in a phsycial frame.
+For example if your p5.js sketch is displayed on a networked TV, an interactive board or a tablet/smartphone installed in a phsycial frame.
 
 It is also very helful when debugging on multiple screen sizes e.g. tablet, smartphone, full- or half-screen. With p5live, you do not have to refresh every screen manually, they will all update at once remotely.
 
