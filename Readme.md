@@ -1,6 +1,6 @@
 # p5live
 
-Sketches opened via https://p5live.jgrizou.repl.co/ will refresh automatically each time you save and run your sketches in the [p5.js editor](https://editor.p5js.org/). 
+A p5.js sketch opened via https://p5live.jgrizou.repl.co/ will refresh automatically each time you save and run it in the [p5.js editor](https://editor.p5js.org/). 
 
 ![concept](docs/media/concept.png)
 
