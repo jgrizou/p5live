@@ -13,7 +13,7 @@ For p5live to work, you only need to import the socket.io library and add 5 line
 
 ## Use-case
 
-This is useful when your work is hard to access but needs to be debugged/tweaked interactively and iteratively. 
+This is useful when your work is hard to access physically but needs to be debugged/tweaked interactively and iteratively. 
 
 For example if your p5.js sketch is displayed on a networked TV, an interactive board or a tablet/smartphone installed in a phsycial frame.
 
