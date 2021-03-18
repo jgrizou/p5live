@@ -89,6 +89,8 @@ This version might not scale and is not at all fool proof. For example, the user
 
 Integrating p5live into the p5.js editor would be the right way to implement p5live functionality. This repository is a way to test if the live feature is of use to the community. If shown useful, I am sure we can work with the p5.js editor team to implement it natively.
 
+Please register your interest to the p5js editor team on Github at https://github.com/processing/p5.js-web-editor/issues/1817
+
 A potential analogy to use in the editor interface is the idea of deploying/uploading the work, similar to uploading code to an Arduino device in the Arduino IDE. This could be done using a third button on the interface, that would deploy/upload your p5.js code to all live location/devices.
 
 ![upload](docs/media/upload.png)
